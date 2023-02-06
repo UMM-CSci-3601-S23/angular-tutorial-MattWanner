@@ -19,7 +19,7 @@ export class CartService {
   addToCart(product: Product) {
     this.items.push(product);
   }
-  get Items() {
+  getItems() {
     return this.items;
   }
   clearCart() {
